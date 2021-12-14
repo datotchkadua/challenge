@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  background-image: url();
+}
+
+.background-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.background-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.brand-info {
+  margin: 25px 30px;
+  padding: 15px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-info h1 {
+  font-size: 36px;
+  color: hsl(300, 43%, 22%);
+  padding-bottom: 15px;
+}
+
+.brand-info p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.reviews {
+  margin: 25px 30px;
+  padding: 15px;
+  max-width: 45%;
+  position: relative;
+}
+.revievs__row {
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.revievs__row h5 {
+  color: hsl(300, 43%, 22%);
+  align-items: center;
+  text-align: center;
+}
+
+.stars {
+  margin-left: 10px;
+}
+
+.stars img {
+  margin: 0px 3px 0px 3px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 20px;
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 240px;
+  padding: 5px 10px 20px;
+}
+
+.card__person {
+  display: flex;
+  align-items: center;
+}
+
+.card__person img {
+  width: 50px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.card__person h4 {
+  font-size: 12px;
+  color: hsl(333, 80%, 67%);
+}
+
+.card__person h4 span {
+  color: hsl(0, 0%, 100%);
+  display: block;
+  padding: 5px;
+}
+
+.card p {
+  color: hsl(0, 0%, 100%);
+  line-height: 1.4;
+  font-size: 12px;
+  margin: 15px;
+}
